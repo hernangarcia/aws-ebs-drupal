@@ -41,7 +41,9 @@ Follow these instructions to install EB CLI:
         inflating: LICENSE
         inflating: README.md
         inflating: beanstalk-settings.php
-
+        ~/drupal-beanstalk$ mv aws-ebs-drupal-1.0/* .
+        ~/drupal-beanstalk$ mv aws-ebs-drupal-1.0/.* . (ignore Invalid argument errors)
+        ~/drupal-beanstalk$ rm -R aws-ebs-drupal-1.0
 
 ## Create an Elastic Beanstalk environment
 
