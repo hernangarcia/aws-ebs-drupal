@@ -1,35 +1,16 @@
 # Deploying drupal on Elastic Beanstalk
 Use the EB CLI to create an Elastic Beanstalk environment with an attached RDS DB and EFS file system to provide Drupal with a MySQL database and shared storage for uploaded files.
 
-You can also run the database outside of the environment to decouple compute and database resources. See the Elastic Beanstalk Developer Guide for a tutorial with instructions that use an external DB instance: [Deploying a High-Availability Drupal Website with an External Amazon RDS Database to Elastic Beanstalk](https://docs.aws.amazon.com/elasticbeanstalk/latest/dg/php-hadrupal-tutorial.html). The tutorial also uses the AWS Management Console instead of the EB CLI.
-
 These instructions were tested with Drupal 8.2.2.
 
 ## Install the EB CLI
 
 The EB CLI integrates with Git and simplifies the process of creating environments, deploying code changes, and connecting to the instances in your environment with SSH. You will perform all of these activites when installing and configuring Drupal.
 
-If you have pip, use it to install the EB CLI.
-
-```Shell
-$ pip install --user --upgrade awsebcli
-```
-
-Add the local install location to your OS's path variable.
-
-###### Linux
-```Shell
-$ export PATH=~/.local/bin:$PATH
-```
-###### OS-X
-```Shell
-$ export PATH=~/Library/Python/3.4/bin:$PATH
-```
-###### Windows
-Add `%USERPROFILE%\AppData\Roaming\Python\Scripts` to your PATH variable. Search for **Edit environment variables for your account** in the Start menu.
-
-If you don't have pip, follow the instructions [here](http://docs.aws.amazon.com/elasticbeanstalk/latest/dg/eb-cli3-install.html).
-
+Follow these instructions to install EB CLI:
+###### [Linux](http://docs.aws.amazon.com/elasticbeanstalk/latest/dg/eb-cli3-install-linux.html)
+###### [MacOS](http://docs.aws.amazon.com/elasticbeanstalk/latest/dg/eb-cli3-install-osx.html)
+###### [Windows](http://docs.aws.amazon.com/elasticbeanstalk/latest/dg/eb-cli3-install-windows.html)
 
 ## Set up your project directory
 
