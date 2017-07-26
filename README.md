@@ -20,8 +20,8 @@ Follow these instructions to install EB CLI:
 
 2. Download the configuration files in this repository
 
-        ~$ wget https://github.com/hernangarcia/aws-ebs-drupal/archive/v1.0.zip
-        -$ curl https://github.com/hernangarcia/aws-ebs-drupal/archive/v1.0.zip -o aws-ebs-drupal-1.0.zip 
+        ~$ wget https://github.com/hernangarcia/aws-ebs-drupal/archive/v1.0.zip or
+        ~$ curl https://github.com/hernangarcia/aws-ebs-drupal/archive/v1.0.zip -o aws-ebs-drupal-1.0.zip in case wget is not found
 
 3. Extract Drupal and change the name of the folder
 
