@@ -20,7 +20,7 @@ Follow these instructions to install EB CLI:
 
 2. Download the configuration files in this repository
 
-        ~$ wget https://github.com/awslabs/eb-php-drupal/releases/download/v1.0/eb-php-drupal-v1.zip
+        ~$ wget https://github.com/hernangarcia/aws-ebs-drupal/archive/v1.0.zip
 
 3. Extract Drupal and change the name of the folder
 
@@ -30,7 +30,7 @@ Follow these instructions to install EB CLI:
 
 4. Extract the configuration files over the Drupal installation
 
-        ~/drupal-beanstalk$ unzip ~/eb-php-drupal-v1.zip
+        ~/drupal-beanstalk$ unzip ~/aws-ebs-drupal-1.0.zip
          creating: .ebextensions/
         inflating: .ebextensions/dev.config
         inflating: .ebextensions/drupal.config
